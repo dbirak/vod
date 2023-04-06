@@ -1,0 +1,618 @@
+:root
+{
+    --background: #1d0222;
+    --second: #913175;
+    --third: #dd5b82;
+    --fourth: #FE9797;
+}
+
+body
+{
+    background-color: var(--background);
+    color: var(--fourth);
+}
+
+/* Navbar */
+
+.navbar
+{
+    background-color: var(--third) !important;
+    -webkit-box-shadow: 0px 0px 18px 5px rgba(107, 36, 83, 1);
+    -moz-box-shadow: 0px 0px 18px 5px rgba(107, 36, 83, 1);
+    box-shadow: 0px 0px 18px 5px rgba(107, 36, 83, 1);
+}
+
+.navbar-brand
+{
+    color: var(--background) !important;
+    margin-right: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+
+}
+
+.nav-link
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 130px;
+}
+
+.nav-item > .active
+{
+    background-color: var(--background) !important;
+    color: #dd5b82 !important;
+}
+
+/* Carousel */
+
+.blur-bootom
+{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    top: 0px;
+    z-index: 222 !important;
+    -webkit-box-shadow: 0px 0px 100px 110px rgba(21, 2, 27, 1);
+    -moz-box-shadow: 0px 0px 100px 110px rgba(21, 2, 27, 1);
+    box-shadow: 0px 0px 100px 110px rgba(21, 2, 27, 1);
+}
+
+.blur-top
+{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    top: 0px;
+    z-index: 1 !important;
+    background-color: var(--background);
+    -webkit-box-shadow: 0px -8px 28px 40px rgba(29, 2, 34, 1);
+    -moz-box-shadow: 0px -8px 28px 40px rgba(29, 2, 34, 1);
+    box-shadow: 0px -8px 28px 40px rgba(29, 2, 34, 1);
+    margin-bottom: 0px;
+}
+
+.carousel
+{
+    z-index: 1 !important;
+}
+
+.carousel-caption
+{
+    color: var(--fourth);
+    margin-bottom: 50px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 3px var(--background);
+}
+
+.carousel-item img
+{
+    filter: brightness(0.7);
+}
+
+/* Header */
+
+.header
+{
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    color: var(--fourth);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    z-index: 225 !important;
+
+}
+
+/* Nasz wybór */
+
+.card2
+{
+    width: 27rem !important;
+}
+
+/* Najnowsze filmy i Najwyżej oceniane */
+
+.card
+{
+    background-color: var(--background);
+    color: var(--fourth);
+    border: 3px solid var(--third);
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card img
+{
+    border-bottom: 2px solid var(--third);
+}
+
+.card a
+{
+    width: 100%;
+    background-color: var(--third);
+    color: var(--background);
+    font-weight: 700;
+    border: 0px;
+}
+
+.card a:hover
+{
+    background-color: #b04666;
+    color: var(--background);
+}
+
+/* Karuzela filmów */
+
+.owl-carousel
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.owl-prev
+{
+    left: -30px;
+}
+
+.owl-next
+{
+    right: -30px;
+}
+
+.owl-prev, .owl-next
+{
+    position: absolute;
+    top: 170px;
+}
+
+.owl-prev span, .owl-next span
+{
+    font-size: 80px;
+    color: var(--third);
+}
+
+.owl-dots
+{
+    text-align: center;
+}
+
+.owl-carousel .owl-dots button span
+{
+    display: block;
+    margin: 5px;
+    margin-top: 25px;
+    width: 15px;
+    height: 15px;
+    background: var(--second);
+    border-radius: 100%;
+}
+
+.owl-dots .active span
+{
+    background-color: var(--third) !important;
+}
+
+.owl-carousel img
+{
+    width: 282px;
+    height: 402px;
+}
+
+.owl-carousel2 img
+{
+    width: 426px !important;
+    height: 607px !important;
+}
+
+.owl-carousel2 .owl-prev
+{
+    top: 35%;
+}
+
+.owl-carousel2 .owl-next
+{
+    top: 35%;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: var(--third);
+    border-radius: 10px;
+}
+
+::-moz-scrollbar
+{
+    width: 10px;
+}
+
+::-moz-scrollbar-thumb
+{
+    width: 10px;
+    background-color: var(--background);
+}
+
+::-ms-scrollbar
+{
+    width: 10px;
+}
+
+::-ms-scrollbar-thumb
+{
+    width: 10px;
+    background-color: var(--background);
+}
+
+/* Film i jego opis */
+
+.description1
+{
+    font-size: 20px;
+    color: var(--third);
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.description2
+{
+    font-size: 20px;
+    color: var(--fourth);
+    text-align: left;
+    text-align: center;
+}
+
+/* Kupno filmu */
+
+.description_img
+{
+    border: 3px solid var(--third);
+    max-width: 516px;
+    max-height: 740px;
+}
+
+.buy
+{
+    color: var(--third);
+    text-align: center;
+    font-size: 25px !important;
+}
+
+.buy_button
+{
+    background-color: var(--third);
+    color: var(--background);
+    border: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.buy_button:hover
+{
+    background-color: #b04666;
+    color: var(--background);
+}
+
+.btn:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+/* Select */
+
+select
+{
+    background-color: var(--third);
+    color: var(--background);
+    height: 50px;
+    width: 100%;
+    border-width: 3px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+}
+
+select:focus
+{
+    border: 0px;
+    outline: none;
+}
+
+option:checked
+{
+    background-color: var(--background) !important;
+    color: var(--third);
+}
+
+option
+{
+    color: var(--background);
+    font-weight: 700;
+    outline: none;
+    border: 0px;
+    text-decoration: none !important;
+    height: 1.5rem;
+    letter-spacing: 1.1px;
+}
+
+/* formularz */
+
+.signin_button
+{
+    background-color: var(--third);
+    color: var(--background);
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.signin_button:hover
+{
+    background-color: #b04666;
+    color: var(--background);
+}
+
+.signin_button:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.label-form
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-container
+{
+    text-align: center;
+}
+
+.input-group-text
+{
+    background-color: var(--third) !important;
+    color: var(--background) !important;
+    border-color: var(--third);
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.form-control
+{
+    background-color: var(--background);
+    border-color: var(--third);
+    color: var(--fourth);
+    border-width: 3px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.form-control:focus
+{
+    outline: none;
+    box-shadow: none;
+    background-color: var(--background);
+    color: var(--fourth);
+    font-weight: 600;
+    border-color: var(--third);
+}
+
+.hyperlink_login
+{
+    color: var(--third);
+}
+
+.hyperlink_login:hover
+{
+    color: var(--third);
+}
+
+.error
+{
+    color: rgb(214, 0, 0);
+    text-align: center;
+}
+
+.number-form::-webkit-outer-spin-button, .number-form::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.number-form[type=number] {
+    -moz-appearance: textfield;
+  }
+
+/* Drop down menu */
+
+.dropdown-menu
+{
+    background-color: var(--third);
+    width: 300px;
+    font-weight: 700;
+    color: var(--background);
+}
+
+.dropdown-item
+{
+    color: var(--background);
+    font-weight: 700;
+}
+
+.dropdown-item:hover
+{
+    background-color: #b04666;
+    color: var(--background);
+}
+
+.dropdown-item:focus
+{
+    background-color: var(--third);
+    color: var(--background);
+}
+
+.dropdown-menu .active
+{
+    background-color: var(--background) !important;
+    color: var(--third);
+
+}
+
+.serach_button
+{
+    width: 180px;
+}
+
+.serach_input
+{
+    width: 420px;
+}
+
+/* Modal */
+
+.modal-content
+{
+    background-color: var(--background);
+    border: 3px solid var(--third);
+    border-radius: 5px;
+}
+
+.modal-title
+{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.modal-header, .modal-footer
+{
+    border: none;
+}
+
+.modal-footer .btn
+{
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.modal-footer
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Stopka */
+
+.footer
+{
+    background-color: var(--third) !important;
+}
+
+.footer_text
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--background) !important;
+}
+
+@media all and (max-width: 992px)
+{
+    /* nav bar */
+
+    .nav-link
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px;
+    }
+
+    .nav-item:first-child
+    {
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 992px)
+{
+    /* serach button */
+
+    .serach_button
+    {
+        width: 230px;
+    }
+
+    .serach_input
+    {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    /* Nasz wybór */
+
+    .card2
+    {
+        width: 18rem !important;
+    }
+
+    /* serach input */
+
+    .serach_input, .buy_button
+    {
+        width: 300px;
+    }
+
+    /* owl-carousel */
+
+    .owl-carousel2 img
+    {
+        width: 282px !important;
+        height: 402px !important;
+    }
+}
+
+@media all and (max-width: 1200px)
+{
+    /* obrazek filmu */
+
+    .description_img
+    {
+        width: 18rem !important;
+    }
+}
