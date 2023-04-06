@@ -1,6 +1,6 @@
 ## Description
 
-The application consisted in symulating the movie rental system. Registered users can rent any film for a period of 2 days at any time. The application allows the user to manage his resources by changing his data, topping up the virtual wallet with appropriate funds to rent movies and displaying a list of his currently rented movies. After renting a movie, the user has the option to watch it. The application also has administrators who can manage users and videos. The application was created in the MVC architecture (Model, View, Controller).
+The application consist in symulating the movie rental system. Registered users can rent any film for a period of 2 days at any time. The application allows the user to manage his resources by changing his data, topping up the virtual wallet with appropriate funds to rent movies and displaying a list of his currently rented movies. After renting a movie, the user has the option to watch it. The application also has administrators who can manage users and videos. The application was created in the MVC architecture (Model, View, Controller).
 
 ## Technologies
 
